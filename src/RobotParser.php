@@ -1,4 +1,5 @@
 <?php
+namespace StaMetok\RobotParser;
 
 use QL\Contracts\PluginContract;
 use QL\QueryList;
