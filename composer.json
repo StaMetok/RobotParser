@@ -2,14 +2,17 @@
     "name": "StaMetok/RobotParser",
     "description": "QueryList Plugin: Parses the robots.txt files from a given url",
     "require": {
-        "PHP":">=7.0"
+        "PHP":"^7.0"
     },
     "require-dev": {
         "jaeger/querylist": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "QL\\Robot\\": ""
+            "StaMetok\\": ""
         }
+    },
+    "extra": {
+        "class": "StaMetok\\StaMetok"
     }   
 }
