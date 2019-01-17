@@ -9,10 +9,8 @@
     },
     "autoload": {
         "psr-4": {
-            "StaMetok\\": ""
+            "StaMetok\\RobotParser\\": ""
         }
-    },
-    "extra": {
-        "class": "StaMetok\\StaMetok"
-    }   
+    }  
 }
+
